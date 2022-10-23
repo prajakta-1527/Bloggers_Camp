@@ -1,0 +1,35 @@
+
+{% extends 'index.html'%}
+{% block body %}
+<div class="container-fluid">
+  <h1 class="my-3">Add your blog here:</h1>
+  <form action='/addblogs' method="post" >
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="exampleInputEmail1">Blog Title</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" name="title" >
+      
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Blog Content</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" name="content" >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Slug</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" name="slug" >
+    </div>
+    <div class="form-group">
+      <label for="shortdesc">Short desc</label>
+      <input type="text" class="form-control" id="shortdesc" name="shortdesc" >
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <footer class="text-light bg-dark position-absolute fixed-bottom">
+    <p class="text-centre my-0 py-2">
+      Copyright &copy; 2022-All rights reserved
+    </p>
+  </footer>
+</div>
+
+{% endblock body %}

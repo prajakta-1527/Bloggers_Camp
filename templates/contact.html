@@ -1,0 +1,67 @@
+{% extends 'index.html'%}
+{% block style %}
+<style>
+    .container{
+        min-height : 10vh;
+    }
+</style>
+{% endblock style %}
+{% block body %}
+<div class="container-fluid">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <div class="container">
+        <h3 class="text-centre my-2">Enter your details</h3>
+          <form class="row g-3 my-3" action="/contact" method="POST">
+            {% csrf_token %}
+              <div class="col-md-4">
+                <label for="validationDefault01" class="form-label">First name</label>
+                <input type="text" class="form-control"name="first_name" id="validationDefault01"  required>
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefault02" class="form-label">Last name</label>
+                <input type="text" class="form-control" name="last_name" id="validationDefault02"  required>
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefaultUsername" class="form-label">Username</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                  <input type="text" class="form-control" name="username" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault03" class="form-label">City</label>
+                <input type="text" class="form-control" name="city" id="validationDefault03" required>
+              </div>
+              <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">State</label>
+                <select class="form-select" name="state" id="validationDefault04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Maharashtra</option>
+                  <option>Madhya Pradesh</option>
+                  <option>Delhi</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Zip</label>
+                <input type="text" class="form-control" name="zip" id="validationDefault05" required>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" name="check" type="checkbox" value="" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2">
+                    Agree to terms and conditions
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </div>
+            </form>
+      </div>
+</div>
+<footer class="text-light bg-dark position-absolute fixed-bottom">
+    <p class="text-centre my-0 py-2">
+      Copyright &copy; 2022-All rights reserved
+    </p>
+  </footer>
+{% endblock body %}

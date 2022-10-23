@@ -12,14 +12,25 @@ This is a simple blogging website build by using django. Users can see various b
 
 ![res-2](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(112).png?raw=true)
 
+---
 ![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(114).png?raw=true)
+
+---
 ![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(115).png?raw=true)
+
+---
 ![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(116).png?raw=true)
+
+---
 ![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(117).png?raw=true)
+
+---
 
 Django-administration:
 
 ![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(118).png?raw=true)
+
+---
 ![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(119).png?raw=true)
 
 ---
@@ -41,4 +52,6 @@ python manage.py runserver
 * https://docs.djangoproject.com/en/4.1/
 
 and few more..
+
+
 

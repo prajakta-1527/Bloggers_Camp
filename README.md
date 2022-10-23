@@ -28,10 +28,13 @@ This is a simple blogging website build by using django. Users can see various b
 
 Django-administration:
 
-![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(118).png?raw=true)
+![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(120).png?raw=true)
 
 ---
-![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(119).png?raw=true)
+![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(122).png?raw=true)
+
+---
+![res-1](https://github.com/prajakta-1527/django_app/blob/main/static/img/Screenshot%20(123).png?raw=true)
 
 ---
 ### **Features**
@@ -61,7 +64,6 @@ python manage.py runserver
 * https://www.tiny.cloud/
 
 and few more..
-
 
 
 

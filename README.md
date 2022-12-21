@@ -45,8 +45,7 @@ Django-administration:
 
 
 ---
-### **Note**
-This website is a basic one created in very short time. I am working on it to bring in various features using Django filters.
+
 
 
 ---
